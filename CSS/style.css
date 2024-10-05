@@ -1,0 +1,403 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background: transparent;
+  transition: all 0.1s;
+}
+nav a {
+  font-family: "Montserrat", sans-serif;
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  font-style: normal;
+}
+
+.banner {
+  position: relative;
+}
+.banner .one {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../Images/banner/Banner_1.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.banner .one h1 {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 42px;
+}
+@media (max-width: 991px) {
+  .banner .one h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+}
+.banner .one button {
+  background-color: transparent;
+  padding: 10px 18px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+}
+.banner .one button a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.banner .two {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../Images/banner/Banner_2.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.banner .two h1 {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 42px;
+}
+@media (max-width: 991px) {
+  .banner .two h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+}
+.banner .two button {
+  background-color: transparent;
+  padding: 10px 18px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+}
+.banner .two button a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.banner .three {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../Images/banner/Banner_3.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.banner .three h1 {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 42px;
+}
+@media (max-width: 991px) {
+  .banner .three h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+}
+.banner .three button {
+  background-color: transparent;
+  padding: 10px 18px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+}
+.banner .three button a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.banner .four {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../Images/banner/Banner_4.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.banner .four h1 {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 42px;
+}
+@media (max-width: 991px) {
+  .banner .four h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+}
+.banner .four button {
+  background-color: transparent;
+  padding: 10px 18px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+}
+.banner .four button a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.home-sentence {
+  padding: 50px 0px;
+}
+@media (max-width: 991px) {
+  .home-sentence {
+    padding: 20px 0px;
+  }
+}
+.home-sentence h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 105px;
+  font-weight: 500;
+  color: #000;
+  line-height: 126px;
+}
+@media (max-width: 991px) {
+  .home-sentence h1 {
+    font-size: 32px;
+    line-height: normal;
+  }
+}
+
+.text-slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.text-slider__content {
+  display: flex;
+  justify-content: space-betwee;
+  padding: 20px 0;
+}
+
+.text-slider__content h3 {
+  padding: 0 20px;
+  width: 100%;
+  display: block;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Rubik", sans-serif;
+  -webkit-text-stroke-color: inherit;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke-width: 1px;
+  width: 100%;
+  display: block;
+  clear: both;
+}
+@media screen and (max-width: 991px) {
+  .text-slider__content h3 {
+    font-size: 2rem;
+  }
+}
+
+.projects .img-over {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.projects .img-over img {
+  width: 100%;
+  height: 100%;
+}
+.projects .img-over .content-wrap {
+  position: absolute;
+  bottom: -250px;
+  transition: all 0.4s;
+  padding: 20px;
+}
+@media (max-width: 991px) {
+  .projects .img-over .content-wrap {
+    padding: 15px;
+  }
+}
+.projects .img-over .content-wrap h3 {
+  color: #fff;
+  font-size: 22px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+@media (max-width: 991px) {
+  .projects .img-over .content-wrap h3 {
+    font-size: 16px;
+  }
+}
+.projects .img-over .content-wrap p {
+  color: #fff;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+@media (max-width: 991px) {
+  .projects .img-over .content-wrap p {
+    font-size: 12px;
+  }
+}
+.projects .img-over:hover .content-wrap {
+  bottom: 0px;
+}
+.projects .img-over:hover img {
+  filter: brightness(0.6);
+}
+
+.process h2 {
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  font-style: normal;
+}
+.process .icon-box {
+  position: relative;
+}
+.process .icon-box .icon-span {
+  background-color: #000;
+  display: block;
+  height: 100px;
+  width: 100px;
+  border-radius: 300px;
+}
+.process .icon-box .number {
+  position: absolute;
+  left: -17px;
+  top: -52px;
+  font-size: 72px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 1;
+  white-space: nowrap;
+  color: transparent !important;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  opacity: 0.5;
+}
+.process h4 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  margin-top: 14px;
+}
+.process p {
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  line-height: 20px;
+}
+.process button {
+  background-color: transparent;
+  border: 1px solid #666;
+  border-radius: 30px;
+  padding: 8px 20px;
+}
+.process button a {
+  color: #666;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+}
+.process button:hover {
+  background-color: #666;
+}
+.process button:hover a {
+  color: #fff;
+}
+
+.about-intro {
+  position: relative;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../Images/about-banner.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.about-intro h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-family: "Raleway", sans-serif;
+}
+@media (max-width: 991px) {
+  .about-intro h2 {
+    text-align: center;
+    font-size: 22px;
+  }
+}
+.about-intro p {
+  font-size: 14px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-family: "Raleway", sans-serif;
+}
+@media (max-width: 991px) {
+  .about-intro p {
+    text-align: center;
+    font-size: 13px;
+  }
+}
+
+.about-work {
+  padding-top: 40px;
+}
+.about-work h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+.about-work p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 0px;
+  margin-bottom: 0px;
+  font-style: normal;
+  text-transform: uppercase;
+}/*# sourceMappingURL=style.css.map */
