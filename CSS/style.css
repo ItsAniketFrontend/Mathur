@@ -400,4 +400,171 @@ nav a {
   margin-bottom: 0px;
   font-style: normal;
   text-transform: uppercase;
+}
+
+.project {
+  position: relative;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #323232;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+@media (max-width: 991px) {
+  .project {
+    height: 350px;
+  }
+}
+.project h2 {
+  font-size: 52px;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-family: "Metrophobic", sans-serif;
+  text-transform: uppercase;
+}
+@media (max-width: 991px) {
+  .project h2 {
+    text-align: center;
+    font-size: 22px;
+  }
+}
+.project p {
+  font-size: 14px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-family: "Raleway", sans-serif;
+}
+@media (max-width: 991px) {
+  .project p {
+    text-align: center;
+    font-size: 13px;
+  }
+}
+
+.clients {
+  position: relative;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #323232;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+@media (max-width: 991px) {
+  .clients {
+    height: 350px;
+  }
+}
+.clients h2 {
+  font-size: 52px;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-family: "Metrophobic", sans-serif;
+  text-transform: uppercase;
+}
+@media (max-width: 991px) {
+  .clients h2 {
+    text-align: center;
+    font-size: 22px;
+  }
+}
+.clients p {
+  font-size: 14px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-family: "Raleway", sans-serif;
+}
+@media (max-width: 991px) {
+  .clients p {
+    text-align: center;
+    font-size: 13px;
+  }
+}
+
+.testimonials {
+  position: relative;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #323232;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+@media (max-width: 991px) {
+  .testimonials {
+    height: 350px;
+  }
+}
+.testimonials h2 {
+  font-size: 52px;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-family: "Metrophobic", sans-serif;
+  text-transform: uppercase;
+}
+@media (max-width: 991px) {
+  .testimonials h2 {
+    text-align: center;
+    font-size: 22px;
+  }
+}
+.testimonials p {
+  font-size: 14px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-family: "Raleway", sans-serif;
+}
+@media (max-width: 991px) {
+  .testimonials p {
+    text-align: center;
+    font-size: 13px;
+  }
+}
+
+footer {
+  background: #323232;
+  padding: 10px 0px;
+}
+footer li {
+  list-style: none;
+  margin: 10px 0px;
+}
+footer li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: "Public Sans", system-ui;
+}
+@media (max-width: 991px) {
+  footer li a {
+    font-size: 13px;
+  }
+}
+footer p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  color: #ffffff;
+  padding-top: 15px;
+  margin-bottom: 0px;
 }/*# sourceMappingURL=style.css.map */
