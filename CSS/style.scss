@@ -197,16 +197,21 @@ nav {
     @media (max-width:991px) {
         padding: 20px 0px;
     }
-    h1 {
+    h2 {
         font-family: $primary-font;
-        font-size: 105px;
+        font-size: 42px;
         font-weight: 500;
         color: #000;
-        line-height: 126px;
         @media (max-width:991px) {
             font-size: 32px;
             line-height: normal;
         }
+    }
+    p{
+        font-size: 18px;
+        font-family: $primary-font;
+        font-weight: 300;
+        color: #000;
     }
 }
 
@@ -558,5 +563,69 @@ footer{
         color: #ffffff;
         padding-top: 15px;
         margin-bottom: 0px;
+    }
+}
+
+.contact-info{
+    .container{
+        padding: 30px;
+        background-color: #000;
+    }
+    h2{
+        color: #fff;
+        font-family: "Raleway", sans-serif;
+        font-size: 32px;
+        font-weight: 400;
+        font-style: normal;
+        @media (max-width:991px) {
+            font-size: 24px;
+        }
+    }
+    .our{
+        color: #fff;
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        font-style: normal;
+    }
+    p{
+        color: #fff;
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal; 
+        @media (max-width:991px) {
+            font-size: 14px;
+        }
+    }
+    h3{
+        color: #fff;
+        font-family: "Montserrat", sans-serif;
+        font-size: 26px;
+        font-weight: 400;
+        font-style: normal; 
+    }
+    input{
+        width: 100%;
+        font-family: "Raleway", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        padding:  10px;
+        border: none;
+    }
+    select{
+        width: 100%;
+        font-family: "Raleway", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        padding: 10px;
+        border: none;
+    }
+    #btnsubmit{
+        background-color: transparent;
+        padding: 7px 20px;
+        border: 1px solid #fff;
+        color: #ffff;
+        border-radius: 30px;
     }
 }
