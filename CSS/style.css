@@ -232,6 +232,9 @@ nav a {
   }
 }
 
+.projects a {
+  display: contents;
+}
 .projects .img-over {
   position: relative;
   display: flex;
@@ -638,4 +641,58 @@ footer p {
   border: 1px solid #fff;
   color: white;
   border-radius: 30px;
+}
+
+.aranya-banner {
+  position: relative;
+  min-height: 350px;
+  background: #323232;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aranya-banner h2 {
+  font-size: 42px;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Metrophobic", sans-serif;
+  text-transform: uppercase;
+}
+@media (max-width: 991px) {
+  .aranya-banner h2 {
+    text-align: center;
+    font-size: 22px;
+  }
+}
+
+.project-description {
+  padding: 30px 0px;
+}
+.project-description h3 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  font-family: "Metrophobic", sans-serif;
+  text-transform: uppercase;
+}
+@media (max-width: 991px) {
+  .project-description h3 {
+    text-align: center;
+    font-size: 18px;
+  }
+}
+.project-description p {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 0px;
+}
+@media (max-width: 991px) {
+  .project-description p {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=style.css.map */
