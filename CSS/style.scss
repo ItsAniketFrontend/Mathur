@@ -42,6 +42,13 @@ nav {
         align-items: center;
         flex-direction: column;
 
+        @media (max-width:991px) {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../Images/banner/phone-1.png);
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
         h1 {
             color: #fff;
             font-family: $second-font;
@@ -81,6 +88,13 @@ nav {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+
+        @media (max-width:991px) {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../Images/banner/phone-2.png);
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
 
         h1 {
             color: #fff;
@@ -122,6 +136,13 @@ nav {
         align-items: center;
         flex-direction: column;
 
+        @media (max-width:991px) {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../Images/banner/phone-3.png);
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
         h1 {
             color: #fff;
             font-family: $second-font;
@@ -161,6 +182,13 @@ nav {
         justify-content: center;
         flex-direction: column;
         align-items: center;
+
+        @media (max-width:991px) {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../Images/banner/phone-4.png);
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
 
         h1 {
             color: #fff;
@@ -312,6 +340,7 @@ nav {
                     font-size: 10px;
                 }
             }
+
             @media (max-width:991px) {
                 bottom: 0px;
             }
@@ -320,19 +349,21 @@ nav {
         @media (min-width:991px) {
             &:hover .content-wrap {
                 bottom: 0px;
-            }  
+            }
+
             &:hover img {
-                filter: brightness(0.6);
-            }    
-        }
-        @media (max-width:991px) {
-            img{
                 filter: brightness(0.6);
             }
         }
-        
 
-       
+        @media (max-width:991px) {
+            img {
+                filter: brightness(0.6);
+            }
+        }
+
+
+
     }
 
 
@@ -769,7 +800,7 @@ footer {
     }
 }
 
-.cta{
+.cta {
     position: fixed;
     left: 0px;
     bottom: 10px;

@@ -35,6 +35,14 @@ nav a {
   align-items: center;
   flex-direction: column;
 }
+@media (max-width: 991px) {
+  .banner .one {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../Images/banner/phone-1.png);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
 .banner .one h1 {
   color: #fff;
   font-family: "Rubik", sans-serif;
@@ -71,6 +79,14 @@ nav a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+@media (max-width: 991px) {
+  .banner .two {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../Images/banner/phone-2.png);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 .banner .two h1 {
   color: #fff;
@@ -109,6 +125,14 @@ nav a {
   align-items: center;
   flex-direction: column;
 }
+@media (max-width: 991px) {
+  .banner .three {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../Images/banner/phone-3.png);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
 .banner .three h1 {
   color: #fff;
   font-family: "Rubik", sans-serif;
@@ -145,6 +169,14 @@ nav a {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+@media (max-width: 991px) {
+  .banner .four {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../Images/banner/phone-4.png);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 .banner .four h1 {
   color: #fff;
