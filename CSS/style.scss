@@ -194,21 +194,38 @@ nav {
 
 .home-sentence {
     padding: 50px 0px;
+
     @media (max-width:991px) {
         padding: 20px 0px;
     }
+
     h2 {
         font-family: $primary-font;
         font-size: 42px;
         font-weight: 500;
         color: #000;
+
         @media (max-width:991px) {
             font-size: 32px;
             line-height: normal;
         }
     }
-    p{
-        font-size: 18px;
+
+    h2 {
+        font-family: $primary-font;
+        font-size: 32px;
+        font-weight: 500;
+        color: #000;
+
+        @media (max-width:991px) {
+            font-size: 26px;
+            line-height: normal;
+        }
+    }
+
+    li {
+        list-style: none;
+        font-size: 13px;
         font-family: $primary-font;
         font-weight: 300;
         color: #000;
@@ -231,92 +248,117 @@ nav {
     width: 100%;
     display: block;
     font-size: 3rem;
-        text-transform: uppercase;
-        font-weight: 500;
-        font-family: $second-font;
-        -webkit-text-stroke-color: inherit;
-        -webkit-text-fill-color: rgba(0, 0, 0, 0);
-        -webkit-text-stroke-width: 1px;
-        width: 100%;
-        display: block;
-        clear: both;
-        @media screen and (max-width: 991px) {
-            font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: $second-font;
+    -webkit-text-stroke-color: inherit;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke-width: 1px;
+    width: 100%;
+    display: block;
+    clear: both;
 
-        }
+    @media screen and (max-width: 991px) {
+        font-size: 2rem;
+
+    }
 }
 
 
-.projects{
-    a{
+.projects {
+    a {
         display: contents;
     }
-    .img-over{
+
+    .img-over {
         position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
         overflow: hidden;
-        img{
+
+        img {
             width: 100%;
             height: 100%;
         }
-        .content-wrap{
+
+        .content-wrap {
             position: absolute;
             bottom: -250px;
             transition: all 0.4s;
             padding: 20px;
+
             @media (max-width:991px) {
                 padding: 15px;
             }
-            h3{
+
+            h3 {
                 color: #fff;
                 font-size: 22px;
                 font-family: "Raleway", sans-serif;
                 font-weight: 400;
+
                 @media (max-width:991px) {
-                    font-size: 16px;
+                    font-size: 13px;
                 }
             }
-            p{
+
+            p {
                 color: #fff;
                 font-size: 14px;
                 font-family: "Montserrat", sans-serif;
+
                 @media (max-width:991px) {
-                    font-size: 12px;
+                    font-size: 10px;
                 }
             }
-        }
-        &:hover .content-wrap {
-            bottom: 0px;
+            @media (max-width:991px) {
+                bottom: 0px;
+            }
         }
 
-        &:hover img {
-            filter: brightness(0.6);
+        @media (min-width:991px) {
+            &:hover .content-wrap {
+                bottom: 0px;
+            }  
+            &:hover img {
+                filter: brightness(0.6);
+            }    
         }
+        @media (max-width:991px) {
+            img{
+                filter: brightness(0.6);
+            }
+        }
+        
+
+       
     }
-    
+
 
 }
 
-.process{
-    h2{
+.process {
+    h2 {
         color: #000;
         font-family: "Raleway", sans-serif;
         font-size: 32px;
         font-weight: 400;
         font-style: normal;
     }
-    .icon-box{
+
+    .icon-box {
         position: relative;
-        .icon-span{
+
+        .icon-span {
             background-color: #000;
             display: block;
             height: 100px;
             width: 100px;
             border-radius: 300px;
         }
-        .number{
+
+        .number {
             position: absolute;
             left: -17px;
             top: -52px;
@@ -331,7 +373,8 @@ nav {
             opacity: 0.5;
         }
     }
-    h4{
+
+    h4 {
         font-size: 22px;
         font-style: normal;
         font-weight: 400;
@@ -339,7 +382,8 @@ nav {
         font-family: "Raleway", sans-serif;
         margin-top: 14px;
     }
-    p{
+
+    p {
         font-size: 13px;
         font-weight: 400;
         font-style: normal;
@@ -347,55 +391,63 @@ nav {
         color: #000;
         line-height: 20px;
     }
-    button{
+
+    button {
         background-color: transparent;
         border: 1px solid #666;
         border-radius: 30px;
         padding: 8px 20px;
-        a{
+
+        a {
             color: #666;
             font-family: "Raleway", sans-serif;
             font-weight: 400;
             font-style: normal;
             text-decoration: none;
         }
-        &:hover{
+
+        &:hover {
             background-color: #666;
         }
-        &:hover a{
+
+        &:hover a {
             color: #fff;
         }
     }
 }
 
-.about-intro{
+.about-intro {
     position: relative;
     height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(../Images/about-banner.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../Images/about-banner.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    h2{
+
+    h2 {
         font-size: 30px;
         font-weight: 400;
         color: #FFFFFF;
         font-family: "Raleway", sans-serif;
+
         @media (max-width:991px) {
             text-align: center;
             font-size: 22px;
         }
     }
-    p{
+
+    p {
         font-size: 14px;
         margin-bottom: 0px;
         font-weight: 400;
         color: #FFFFFF;
         font-family: "Raleway", sans-serif;
+
         @media (max-width:991px) {
             text-align: center;
             font-size: 13px;
@@ -403,26 +455,28 @@ nav {
     }
 }
 
-.about-work{
+.about-work {
     padding-top: 40px;
-     h2{
-         font-family: "Raleway", sans-serif;
-         font-size: 30px;
-         font-style: normal;
-         font-weight: 400;  
-     }
-     p{
-         font-family: "Montserrat", sans-serif;
-         font-size: 16px;
-         font-weight: 400;
-         padding: 10px 0px;
-         margin-bottom: 0px;
-         font-style: normal;
-         text-transform: uppercase;
-     }
- }
 
-.project{
+    h2 {
+        font-family: "Raleway", sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    p {
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 10px 0px;
+        margin-bottom: 0px;
+        font-style: normal;
+        text-transform: uppercase;
+    }
+}
+
+.project {
     position: relative;
     height: 500px;
     display: flex;
@@ -434,26 +488,31 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
     @media (max-width:991px) {
         height: 350px;
     }
-    h2{
+
+    h2 {
         font-size: 52px;
         font-weight: 400;
         color: #FFFFFF;
         font-family: $third-font;
         text-transform: uppercase;
+
         @media (max-width:991px) {
             text-align: center;
             font-size: 22px;
         }
     }
-    p{
+
+    p {
         font-size: 14px;
         margin-bottom: 0px;
         font-weight: 400;
         color: #FFFFFF;
         font-family: "Raleway", sans-serif;
+
         @media (max-width:991px) {
             text-align: center;
             font-size: 13px;
@@ -461,7 +520,7 @@ nav {
     }
 }
 
-.clients{
+.clients {
     position: relative;
     height: 500px;
     display: flex;
@@ -473,26 +532,31 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
     @media (max-width:991px) {
         height: 350px;
     }
-    h2{
+
+    h2 {
         font-size: 52px;
         font-weight: 400;
         color: #FFFFFF;
         font-family: $third-font;
         text-transform: uppercase;
+
         @media (max-width:991px) {
             text-align: center;
             font-size: 22px;
         }
     }
-    p{
+
+    p {
         font-size: 14px;
         margin-bottom: 0px;
         font-weight: 400;
         color: #FFFFFF;
         font-family: "Raleway", sans-serif;
+
         @media (max-width:991px) {
             text-align: center;
             font-size: 13px;
@@ -500,7 +564,7 @@ nav {
     }
 }
 
-.testimonials{
+.testimonials {
     position: relative;
     height: 500px;
     display: flex;
@@ -512,26 +576,31 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
     @media (max-width:991px) {
         height: 350px;
     }
-    h2{
+
+    h2 {
         font-size: 52px;
         font-weight: 400;
         color: #FFFFFF;
         font-family: $third-font;
         text-transform: uppercase;
+
         @media (max-width:991px) {
             text-align: center;
             font-size: 22px;
         }
     }
-    p{
+
+    p {
         font-size: 14px;
         margin-bottom: 0px;
         font-weight: 400;
         color: #FFFFFF;
         font-family: "Raleway", sans-serif;
+
         @media (max-width:991px) {
             text-align: center;
             font-size: 13px;
@@ -539,13 +608,15 @@ nav {
     }
 }
 
-footer{
+footer {
     background: #323232;
     padding: 10px 0px;
-    li{
+
+    li {
         list-style: none;
         margin: 10px 0px;
-        a{
+
+        a {
             text-decoration: none;
             color: #FFFFFF;
             font-size: 16px;
@@ -553,12 +624,14 @@ footer{
             font-weight: 300;
             text-transform: uppercase;
             font-family: $fourth-font;
+
             @media (max-width:991px) {
                 font-size: 13px;
             }
         }
     }
-    p{
+
+    p {
         font-family: "Montserrat", sans-serif;
         font-size: 16px;
         font-style: normal;
@@ -569,54 +642,53 @@ footer{
     }
 }
 
-.contact-info{
-    .container{
+.contact-info {
+    .container {
         padding: 30px;
         background-color: #000;
     }
-    h2{
+
+    h2 {
         color: #fff;
         font-family: "Raleway", sans-serif;
         font-size: 32px;
         font-weight: 400;
         font-style: normal;
+
         @media (max-width:991px) {
             font-size: 24px;
         }
     }
-    .our{
+
+    .our {
         color: #fff;
         font-family: "Montserrat", sans-serif;
         font-size: 18px;
         font-weight: 700;
         font-style: normal;
     }
-    p{
+
+    p {
         color: #fff;
         font-family: "Montserrat", sans-serif;
         font-size: 16px;
         font-weight: 400;
-        font-style: normal; 
+        font-style: normal;
+
         @media (max-width:991px) {
             font-size: 14px;
         }
     }
-    h3{
+
+    h3 {
         color: #fff;
         font-family: "Montserrat", sans-serif;
         font-size: 26px;
         font-weight: 400;
-        font-style: normal; 
+        font-style: normal;
     }
-    input{
-        width: 100%;
-        font-family: "Raleway", sans-serif;
-        font-weight: 400;
-        font-size: 15px;
-        padding:  10px;
-        border: none;
-    }
-    select{
+
+    input {
         width: 100%;
         font-family: "Raleway", sans-serif;
         font-weight: 400;
@@ -624,7 +696,17 @@ footer{
         padding: 10px;
         border: none;
     }
-    #btnsubmit{
+
+    select {
+        width: 100%;
+        font-family: "Raleway", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        padding: 10px;
+        border: none;
+    }
+
+    #btnsubmit {
         background-color: transparent;
         padding: 7px 20px;
         border: 1px solid #fff;
@@ -640,13 +722,15 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    h2{
+
+    h2 {
         font-size: 42px;
         font-weight: 400;
         color: #FFFFFF;
         text-align: center;
         font-family: $third-font;
         text-transform: uppercase;
+
         @media (max-width:991px) {
             text-align: center;
             font-size: 22px;
@@ -654,27 +738,31 @@ footer{
     }
 }
 
-.project-description{
+.project-description {
     padding: 30px 0px;
-    h3{
+
+    h3 {
         font-size: 32px;
         font-weight: 400;
         color: #000;
         text-align: center;
         font-family: $third-font;
         text-transform: uppercase;
+
         @media (max-width:991px) {
             text-align: center;
             font-size: 18px;
         }
     }
-    p{
+
+    p {
         color: #000;
         font-family: "Montserrat", sans-serif;
         font-size: 16px;
         font-weight: 400;
         font-style: normal;
-        margin-bottom: 0px; 
+        margin-bottom: 0px;
+
         @media (max-width:991px) {
             font-size: 14px;
         }

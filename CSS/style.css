@@ -193,8 +193,21 @@ nav a {
     line-height: normal;
   }
 }
-.home-sentence p {
-  font-size: 18px;
+.home-sentence h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: #000;
+}
+@media (max-width: 991px) {
+  .home-sentence h2 {
+    font-size: 26px;
+    line-height: normal;
+  }
+}
+.home-sentence li {
+  list-style: none;
+  font-size: 13px;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   color: #000;
@@ -265,7 +278,7 @@ nav a {
 }
 @media (max-width: 991px) {
   .projects .img-over .content-wrap h3 {
-    font-size: 16px;
+    font-size: 13px;
   }
 }
 .projects .img-over .content-wrap p {
@@ -275,14 +288,26 @@ nav a {
 }
 @media (max-width: 991px) {
   .projects .img-over .content-wrap p {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
-.projects .img-over:hover .content-wrap {
-  bottom: 0px;
+@media (max-width: 991px) {
+  .projects .img-over .content-wrap {
+    bottom: 0px;
+  }
 }
-.projects .img-over:hover img {
-  filter: brightness(0.6);
+@media (min-width: 991px) {
+  .projects .img-over:hover .content-wrap {
+    bottom: 0px;
+  }
+  .projects .img-over:hover img {
+    filter: brightness(0.6);
+  }
+}
+@media (max-width: 991px) {
+  .projects .img-over img {
+    filter: brightness(0.6);
+  }
 }
 
 .process h2 {
