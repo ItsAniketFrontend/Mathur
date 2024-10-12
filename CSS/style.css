@@ -720,4 +720,12 @@ footer p {
   .project-description p {
     font-size: 14px;
   }
+}
+
+.cta {
+  position: fixed;
+  left: 0px;
+  bottom: 10px;
+  flex-direction: row;
+  z-index: 10000;
 }/*# sourceMappingURL=style.css.map */
